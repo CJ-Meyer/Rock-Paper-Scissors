@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  min-height: 100vh; /* Use at least the full height of the viewport */
+  flex-direction: column; /* Stack items vertically */
+  margin: 0; /* Remove default margin */
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+.button-container{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+button{
+  cursor: pointer;
+  outline: none;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding:10px 20px ;
+  font-size: 48px;
+}
+#result{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.result-container{
+  justify-content: center;
+}
+.player-computer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 48px;
+}
+#result-player{
+  font-size: 32px;
+}
+#result-computer{
+  font-size: 32px;
+}
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.middle{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+#vs{
+  font-size: 26px;
+}
+#game-result{
+  font-size: 22px;
+}
